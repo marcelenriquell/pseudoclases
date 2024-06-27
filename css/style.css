@@ -1,0 +1,286 @@
+body {
+    background-color: #222222;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+header {
+    width: auto;
+    height: 230px;
+    left: 0px;
+    top: 1px;
+    background: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barraNavegacion {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#logo {
+    height: 200px;
+}
+.caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    width: 850px;
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+}
+#items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#boton {
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1E1E1E;
+    border-radius: 5px;
+    padding: 15px 25px;
+    gap: 15px;
+}
+#home {
+    display: flex;
+    justify-content: center;
+    color: #F28300;
+}
+#categ {
+    display: flex;
+    justify-content: center;
+    color: #F28300;
+}
+#portf {
+    display: flex;
+    justify-content: center;
+    color: #F28300;
+}
+#reserve {
+    display: flex;
+    justify-content: center;
+    color: #F28300;
+}
+.content {
+    width: auto;
+    height: 50px;
+    left: 0px;
+    top: 1px;
+    background: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-register {
+    width: 320px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu-login {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+#boton1 {
+    width: 100px;
+    height: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: white;
+    background-color: #f28100fd;
+    border-radius: 5px;
+    border-color: #F28300;
+    padding: 15px 25px;
+    gap: 15px;
+}
+#boton2 {
+    width: 100px;
+    height: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: #F28300;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #F28300;
+    padding: 15px 25px;
+    gap: 15px;
+}
+a#register {
+    color: #F28300;
+}
+.cuerpo {
+    background-image: url(../img/fotoinicio.jpg);
+    background-size: cover; 
+    height: 800px;
+    width: auto;
+}
+
+.banner {
+    height: 800px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.infoBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+p {
+    padding: 10px 50px;
+    color: #f28100c2;
+    font-size: 20px;
+}
+
+h1#tituloIni {
+    justify-content: flex-end;
+    font-family: "Playwrite GB S",'Courier New', Courier, monospace;
+    padding: 10px 50px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#categorias {
+    width: auto;
+    height: 230px;
+    left: 0px;
+    top: 1px;
+    background: #1E1E1E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#boton-ver-mas {
+    width: 100px;
+    height: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: white;
+    background-color: #f28100fd;
+    border-radius: 5px;
+    border-color: #F28300;
+    padding: 15px 25px;
+    gap: 15px;
+}
+
+#boton-ver-deportiva {
+    width: 100px;
+    height: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: white;
+    background-color: #f28100fd;
+    border-radius: 5px;
+    border-color: #F28300;
+    padding: 15px 25px;
+    gap: 15px;
+}
+
+#mascotas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F28300;
+}
+
+#retratos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F28300;
+}
+
+#deportiva {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F28300;
+}
+
+/* pseudoclases */ 
+
+p:last-child {
+    color: #ffffff;
+    background-color: #F28300;
+}
+
+p:first-of-type {
+    color: #f28100c4;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+#boton:hover {
+    background-color: black;
+}
+
+#boton1:hover {
+    background-color: black;
+}
+
+#boton2:hover {
+    background-color: black;
+}
+
+a:enabled {
+    cursor: e-resize;
+}
+
+div #boton-ver-mas:active {
+    background-color:black;
+}
+
+a:has(img) {
+    background-color: black;
+    border-color: #F28300;
+}
+
+body :left {
+    margin: 90px 30px;
+}
+
+h2:not(p) {
+    text-decoration: underline;
+}
+
+#boton-ver-deportiva:empty {
+    background-color: #000000;
+}
